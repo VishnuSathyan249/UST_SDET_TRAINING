@@ -26,3 +26,14 @@ public class SBA1_2_AddPositiveNumbers {
 	}
 
 }
+
+output
+	Enter positive number
+	1
+	Enter positive number
+	3
+	Enter positive number
+	4
+	Enter positive number
+	-1
+	The sum of 3 positive numbers is 8
