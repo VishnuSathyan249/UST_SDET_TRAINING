@@ -32,3 +32,8 @@ public class SBA1_3_LabelledBreak {
 	}
 
 }
+
+output
+	Enter the limit
+	10
+	The sum of first 10 natural numbers is 55
