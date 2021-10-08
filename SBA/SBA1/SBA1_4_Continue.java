@@ -29,4 +29,7 @@ public class SBA1_4_Continue {
 
 }
 
-
+output
+	Enter the limit
+	10
+	The sum of first 10 even numbers are 110
