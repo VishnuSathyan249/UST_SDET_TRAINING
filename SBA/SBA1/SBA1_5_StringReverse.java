@@ -37,3 +37,18 @@ public class SBA1_5_StringReverse {
 		}
 }
 }
+
+output:
+
+	Enter the string
+	HELLO
+
+	String before reverse
+	HELLO
+
+	String after reverse using inbuilt function
+	OLLEH
+
+	String after reverse using char array
+	OLLEH
+	
