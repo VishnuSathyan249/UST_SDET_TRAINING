@@ -13,7 +13,7 @@ public class SBA1_5_StringReverse {
 		
 		System.out.println("Enter the string");
 		Scanner sc = new Scanner(System.in);	
-		str = sc.next();
+		str = sc.nextLine();
 		a = str.toCharArray();
 		
 		StringBuilder str1 = new StringBuilder(str);
