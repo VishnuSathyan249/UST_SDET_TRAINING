@@ -33,7 +33,7 @@ public class SBA1_6_StringFunctions {
 			
 				System.out.println("First string contains second string");
 			
-	    else 
+	        else 
 			    System.out.println("First string doesnot contains second string");
 							
 		
