@@ -45,11 +45,11 @@ public class SBA1_6_StringFunctions {
 		
 		System.out.println();
 		System.out.println("replace() function");
-		System.out.println("After replacing string 1 with string 2 : "+str1.replace(str1, str2));
+		System.out.println("After replacing first string  with second string  : "+str1.replace(str1, str2));
 		
 		System.out.println();
 		System.out.println("concat() function");
-		System.out.println("After concatenate string 1 with string 2 : "+str1.concat(" ").concat(str2));
+		System.out.println("After concatenating second string  with first string  : "+str1.concat(" ").concat(str2));
 		
 		System.out.println();
 		System.out.println("equals() function");
@@ -65,3 +65,32 @@ public class SBA1_6_StringFunctions {
 	}
 
 }
+
+	output
+		Enter the first string
+		hello june
+		Enter the second string
+		june
+		Enter the third string
+		june
+
+		First String = hello june
+		Second String = june
+		Third String = june
+
+		Contains() function
+		First string contains second string
+
+		length() function
+		Length of first string : 10
+		Length of second string : 4
+		Length of second string : 4
+
+		replace() function
+		After replacing first string  with second string  : june
+
+		concat() function
+		After concatenating second string  with first string  : hello june june
+
+		equals() function
+		Second string equals to third string
