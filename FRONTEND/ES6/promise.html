@@ -1,25 +1,38 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <h2>Js Promise</h2>
-        <p>wait 3 seconds for this page to chnge</p>
-        <h1 id ="demo"></h1>
-
-        <script>
-            const Mypr = new Promise( 
-                
-                function(myResolve,myReject)
-                {
-                    setTimeout(function(){myResolve("I loVe u");},3000);
-                }
-            )
-
-            Mypr.then(function(value)
-
-                 {
-                        document.getElementById("demo").innerHTML=value;
-                 }
-            );
-        </script>
-    </body>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+</head> 
+<body> 
+    <script> 
+        const PromiseP = () =>{ 
+            return new Promise((resolve,reject)=>{ 
+                resolve("Hello Promoise P"); 
+            }); 
+        }
+        const PromiseQ = () =>{ 
+            return new Promise((resolve,reject)=>{ 
+                resolve("Hello Promise Q"); 
+            }); 
+        }
+        const PromiseR = () =>{ 
+            return new Promise((resolve,reject)=>{ 
+                resolve("Hello Promise R"); 
+            }); 
+        } 
+        PromiseP().then((P)=>{ 
+                  console.log(P); 
+                    return PromiseQ(); 
+                }).then((Q)=>{ 
+                    console.log(Q); 
+                    return PromiseR(); 
+                }).then((R)=>{ 
+                    console.log(R); 
+                });        
+     </script> 
+</body> 
 </html>
+
