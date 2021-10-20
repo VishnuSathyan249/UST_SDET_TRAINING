@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Js Promise</h2>
+        <p>wait 3 seconds for this page to chnge</p>
+        <h1 id ="demo"></h1>
+
+        <script>
+            const Mypr = new Promise( 
+                
+                function(myResolve,myReject)
+                {
+                    setTimeout(function(){myResolve("I loVe u");},3000);
+                }
+            )
+
+            Mypr.then(function(value)
+
+                 {
+                        document.getElementById("demo").innerHTML=value;
+                 }
+            );
+        </script>
+    </body>
+</html>
