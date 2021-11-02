@@ -67,3 +67,36 @@ public class SBA1_6_StringFunctions {
 
 }
 
+output:
+
+	Enter the first string
+	Mornig john
+	Enter the second string
+	john
+	Enter the third string
+	john
+
+	First String = Mornig john
+	Second String = john
+	Third String = john
+
+	Contains() function
+	First string contains second string
+
+	length() function
+	Length of first string : 11
+	Length of second string : 4
+	Length of second string : 4
+
+	replace() function
+	After replacing first string  with second string  : john
+
+	concat() function
+	After concatenating second string  with first string  : Mornig john john
+
+	equals() function
+	Second string equals to third string
+
+
+
+
